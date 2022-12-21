@@ -1,12 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
-
 body,
 html {
   padding: 0;
   margin: 0;
-  font-family: "League Spartan", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  min-height: 100vh;
+  background-image: url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+}
+
+@media (min-width: 992px) {
+  body,
+  html {
+    flex-direction: row;
+  }
 }

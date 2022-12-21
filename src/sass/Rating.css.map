@@ -1,1 +1,1 @@
-{"version":3,"sources":["Rating.scss","Rating.css"],"names":[],"mappings":"AAAA;EACE,2BAAA;ACCF","file":"Rating.css"}
+{"version":3,"sources":["variable.scss","Rating.scss","Rating.css"],"names":[],"mappings":"AAGQ,oGAAA;ACDR;EACE,kBAAA;EACA,4BDEgB;ECDhB,yCDQK;ECPL,gBAAA;ACAF","file":"Rating.css"}

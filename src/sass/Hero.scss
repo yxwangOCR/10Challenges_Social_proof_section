@@ -1,3 +1,16 @@
-.hero{
-    background-color: red;
+@import "variable.scss";
+.hero {
+  background-color: transparent;
+  margin: 0;
+  color: $VeryDarkMagenta;
+  font-family: $Font;
+  text-align: center;
+  h1 {
+    margin: 0 2rem;
+    font-weight: 700;
+  }
+  p {
+    line-height: 20px;
+    font-weight: 400;
+  }
 }

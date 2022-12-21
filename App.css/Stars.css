@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+.stars {
+  background: hsl(300deg, 24%, 96%);
+  border-radius: 10px;
+  padding: 0.6rem 0;
+  margin: 1rem 0;
+}
+
+.stars p {
+  margin: 1rem 0 0 0;
+} /*# sourceMappingURL=Stars.css.map */
+
+/*# sourceMappingURL=Stars.css.map */
