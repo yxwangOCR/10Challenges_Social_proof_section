@@ -9,15 +9,20 @@
 
 @media (min-width: 1200px) {
   .rating {
-    width: 50%;
-    :nth-child(1) {
-      background-color: $Pink;
+    width: 31rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .starTwo {
+      position: relative;
+      left: 3rem;
     }
-    :nth-child(2) {
-      background-color: $LightGrayishMagenta;
-    }
-    :nth-child(3) {
-      background-color: $LightGrayishMagenta;
+    .starThree {
+      position: relative;
+      left: 6rem;
     }
   }
 }

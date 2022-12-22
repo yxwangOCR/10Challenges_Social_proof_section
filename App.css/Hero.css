@@ -21,12 +21,12 @@
   .hero {
     text-align: left;
     margin: 0;
-    background-color: yellow;
-    width: 50%;
+    width: 31rem;
   }
   .hero h1 {
-    width: 50%;
+    width: 79%;
     margin: 0;
+    font-size: 4rem;
   }
   .hero p {
     width: 75%;

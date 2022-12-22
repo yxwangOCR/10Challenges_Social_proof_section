@@ -11,7 +11,16 @@
 
 @media (min-width: 1200px) {
   .stars {
-    margin: 0 0 1rem 0;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    width: 25rem;
+  }
+  .stars p {
+    margin: 0;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=Stars.css.map */
