@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/10Challenges_Social_proof_section/static/css/main.32811ae4.css",
-    "main.js": "/10Challenges_Social_proof_section/static/js/main.62abdc47.js",
+    "main.css": "/10Challenges_Social_proof_section/static/css/main.096cb8c2.css",
+    "main.js": "/10Challenges_Social_proof_section/static/js/main.0226b73d.js",
     "index.html": "/10Challenges_Social_proof_section/index.html",
     "static/media/bg-pattern-bottom-desktop.svg": "/10Challenges_Social_proof_section/static/media/bg-pattern-bottom-desktop.32aa6571dc718836bdfc.svg",
     "static/media/bg-pattern-bottom-mobile.svg": "/10Challenges_Social_proof_section/static/media/bg-pattern-bottom-mobile.593835ec67fd27ee2a62.svg",
     "static/media/bg-pattern-top-desktop.svg": "/10Challenges_Social_proof_section/static/media/bg-pattern-top-desktop.9d4ba9c9b19e4c6be1e6.svg",
     "static/media/bg-pattern-top-mobile.svg": "/10Challenges_Social_proof_section/static/media/bg-pattern-top-mobile.58eed600d32e18ece9dc.svg",
     "static/media/icon-star.svg": "/10Challenges_Social_proof_section/static/media/icon-star.2d8e7b7cb342bc812e9df51d276eaa78.svg",
-    "main.32811ae4.css.map": "/10Challenges_Social_proof_section/static/css/main.32811ae4.css.map",
-    "main.62abdc47.js.map": "/10Challenges_Social_proof_section/static/js/main.62abdc47.js.map"
+    "main.096cb8c2.css.map": "/10Challenges_Social_proof_section/static/css/main.096cb8c2.css.map",
+    "main.0226b73d.js.map": "/10Challenges_Social_proof_section/static/js/main.0226b73d.js.map"
   },
   "entrypoints": [
-    "static/css/main.32811ae4.css",
-    "static/js/main.62abdc47.js"
+    "static/css/main.096cb8c2.css",
+    "static/js/main.0226b73d.js"
   ]
 }
