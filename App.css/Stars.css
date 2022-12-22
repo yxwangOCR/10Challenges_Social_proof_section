@@ -3,7 +3,7 @@
   background: hsl(300deg, 24%, 96%);
   border-radius: 8px;
   padding: 0.6rem 0;
-  margin: 1rem 0;
+  width: 20rem;
 }
 
 .stars p {
@@ -17,12 +17,11 @@
     justify-content: space-around;
     align-items: center;
     padding: 1rem 0;
-    margin: 1rem 0;
     width: 25rem;
   }
   .stars p {
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
   }
 } /*# sourceMappingURL=Stars.css.map */
 

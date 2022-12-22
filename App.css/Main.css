@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 .main {
-  background-color: transparent;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 @media (min-width: 1200px) {
   .main {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin-top: 0;
     gap: 1rem;

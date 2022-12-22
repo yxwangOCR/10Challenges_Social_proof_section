@@ -1,9 +1,10 @@
 @import "variable.scss";
 .card {
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: $VeryDarkMagenta;
   font-family: $Font;
   color: $White;
+  width: 20rem;
 
   .user-profile {
     display: flex;
@@ -36,5 +37,8 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
+  .card {
+    width: 20rem;
+  }
 }

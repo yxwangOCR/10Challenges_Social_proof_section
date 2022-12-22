@@ -6,7 +6,7 @@ import Rating from "./components/Rating";
 function App() {
   return (
     <div className='App'>
-      <header className='top'>
+      <header>
         <Hero />
         <Rating />
       </header>

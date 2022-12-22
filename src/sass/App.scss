@@ -1,37 +1,18 @@
 @import "variable.scss";
 .App {
-  padding: 5rem 1rem;
+  padding: 5rem 2rem;
 
-  .top {
+  header {
     margin: 0;
   }
 }
 
 @media (min-width: 1200px) {
   .App {
-    margin: 5rem;
-  }
-  .top {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-}
-
-@media (min-width: 1600px) {
-  .App {
-    margin: 10rem;
-  }
-}
-
-@media (min-width: 1800px) {
-  .App {
-    margin: 15rem;
-  }
-}
-
-@media (min-width: 2000px) {
-  .App {
-    margin: 20rem;
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
   }
 }

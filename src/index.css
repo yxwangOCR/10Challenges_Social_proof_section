@@ -4,7 +4,7 @@ html {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   width: 100%;
@@ -19,12 +19,5 @@ html {
   html {
     background-image: url("./images/bg-pattern-top-desktop.svg"),
       url("./images/bg-pattern-bottom-desktop.svg");
-  }
-}
-
-@media (min-width: 992px) {
-  body,
-  html {
-    flex-direction: row;
   }
 }

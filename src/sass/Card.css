@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 .card {
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: hsl(300deg, 43%, 22%);
   font-family: "League Spartan", sans-serif;
   color: hsl(0deg, 0%, 100%);
+  width: 20rem;
 }
 .card .user-profile {
   display: flex;
@@ -30,4 +31,10 @@
   font-weight: 400;
   padding: 0 2rem 2rem 2rem;
   line-height: 25px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 20rem;
+  }
 }/*# sourceMappingURL=Card.css.map */

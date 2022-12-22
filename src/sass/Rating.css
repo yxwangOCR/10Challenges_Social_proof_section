@@ -4,6 +4,10 @@
   color: hsl(300deg, 43%, 22%);
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 @media (min-width: 1200px) {
@@ -15,12 +19,16 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .rating .starOne {
+    position: relative;
+    left: -3rem;
+  }
   .rating .starTwo {
     position: relative;
-    left: 3rem;
+    left: 0;
   }
   .rating .starThree {
     position: relative;
-    left: 6rem;
+    left: 3rem;
   }
 }/*# sourceMappingURL=Rating.css.map */

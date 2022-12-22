@@ -5,6 +5,10 @@
   color: $VeryDarkMagenta;
   font-family: $Font;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 @media (min-width: 1200px) {
@@ -16,13 +20,17 @@
     flex-direction: column;
     justify-content: space-between;
 
+    .starOne {
+      position: relative;
+      left: -3rem;
+    }
     .starTwo {
       position: relative;
-      left: 3rem;
+      left: 0;
     }
     .starThree {
       position: relative;
-      left: 6rem;
+      left: 3rem;
     }
   }
 }
