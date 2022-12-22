@@ -6,10 +6,10 @@ const Card = ({ url, name, type, content, className }) => {
     <div className={className}>
       <div className='user-profile'>
         <img src={url} alt='user-profile' />
-        <span>
-          <h5>{name}</h5>
-          <h6>{type}</h6>
-        </span>
+        <div className="user-info">
+          <h2>{name}</h2>
+          <h3>{type}</h3>
+        </div>
       </div>
       <p>{content}</p>
     </div>

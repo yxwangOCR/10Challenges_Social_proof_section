@@ -19,14 +19,16 @@
   margin-right: 1rem;
 }
 
-.card .user-profile h5 {
+.card .user-profile .user-info h2 {
   margin: 0;
   font-weight: 700;
+  font-size: 1rem;
 }
 
-.card .user-profile h6 {
+.card .user-profile .user-info h3 {
   margin: 0.5rem 0 0 0;
   color: hsl(333deg, 80%, 67%);
+  font-size: 1rem;
 }
 
 .card p {
