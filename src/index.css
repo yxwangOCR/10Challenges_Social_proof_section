@@ -7,10 +7,19 @@ html {
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   background-image: url("./images/bg-pattern-top-mobile.svg"),
     url("./images/bg-pattern-bottom-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: top left, bottom right;
+}
+
+@media (min-width: 390px) {
+  body,
+  html {
+    background-image: url("./images/bg-pattern-top-desktop.svg"),
+      url("./images/bg-pattern-bottom-desktop.svg");
+  }
 }
 
 @media (min-width: 992px) {

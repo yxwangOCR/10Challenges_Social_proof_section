@@ -1,6 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 .main {
-  background-color: hsl(303deg, 10%, 53%);
+  background-color: transparent;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .main .cardOne {
+    position: relative;
+    top: 3rem;
+    -webkit-animation: cardMove 1s ease-in-out 1s;
+    animation: cardMove 1s ease-in-out 1s;
+  }
+  .main .cardTwo {
+    position: relative;
+    top: 5rem;
+    -webkit-animation: cardMove 2s ease-in-out 1s;
+    animation: cardMove 2s ease-in-out 1s;
+  }
+  .main .cardThree {
+    position: relative;
+    top: 7rem;
+    -webkit-animation: cardMove 3s ease-in-out 1s;
+    animation: cardMove 3s ease-in-out 1s;
+  }
+}
+@-webkit-keyframes cardMove {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes cardMove {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 } /*# sourceMappingURL=Main.css.map */
 
 /*# sourceMappingURL=Main.css.map */

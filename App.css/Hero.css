@@ -15,6 +15,22 @@
 .hero p {
   line-height: 20px;
   font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    text-align: left;
+    margin: 0;
+    background-color: yellow;
+    width: 50%;
+  }
+  .hero h1 {
+    width: 50%;
+    margin: 0;
+  }
+  .hero p {
+    width: 75%;
+  }
 } /*# sourceMappingURL=Hero.css.map */
 
 /*# sourceMappingURL=Hero.css.map */

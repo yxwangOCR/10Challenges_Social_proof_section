@@ -1,4 +1,39 @@
 @import "variable.scss";
 .main {
-  background-color: $DarkGrayishMagenta;
+  background-color: transparent;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    gap: 1rem;
+    margin-top: 2rem;
+    .cardOne {
+      position: relative;
+      top: 3rem;
+      animation: cardMove 1s ease-in-out 1s;
+    }
+    .cardTwo {
+      position: relative;
+      top: 5rem;
+      animation: cardMove 2s ease-in-out 1s;
+    }
+    .cardThree {
+      position: relative;
+      top: 7rem;
+      animation: cardMove 3s ease-in-out 1s;
+    }
+  }
+}
+
+@keyframes cardMove {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

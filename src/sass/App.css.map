@@ -1,1 +1,1 @@
-{"version":3,"sources":["App.scss","App.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;ACCF","file":"App.css"}
+{"version":3,"sources":["variable.scss","App.scss","App.css"],"names":[],"mappings":"AAGQ,oGAAA;ACFR;EACE,kBAAA;ACCF;ADCE;EACE,SAAA;ACCJ;;ADGA;EACE;IACE,kBAAA;ECAF;AACF;ADGA;EACC;IACC,aAAA;ECDA;AACF","file":"App.css"}

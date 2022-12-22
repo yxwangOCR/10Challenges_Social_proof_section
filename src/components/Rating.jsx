@@ -5,9 +5,9 @@ import Stars from "./Stars";
 const Rating = () => {
   return (
     <div className='rating'>
-      <Stars>Rated 5 Stars in Reviews</Stars>
-      <Stars>Rated 5 Stars in Report Guru</Stars>
-      <Stars>Rated 5 Stars in BestTech</Stars>
+      <Stars review='Rated 5 Stars in Reviews' />
+      <Stars review='Rated 5 Stars in Report Guru' />
+      <Stars review='Rated 5 Stars in BestTech' />
     </div>
   );
 };

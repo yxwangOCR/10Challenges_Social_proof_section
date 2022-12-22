@@ -1,13 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
 .stars {
   background: hsl(300deg, 24%, 96%);
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 0.6rem 0;
   margin: 1rem 0;
 }
 
 .stars p {
   margin: 1rem 0 0 0;
+}
+
+@media (min-width: 1200px) {
+  .stars {
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
 } /*# sourceMappingURL=Stars.css.map */
 
 /*# sourceMappingURL=Stars.css.map */

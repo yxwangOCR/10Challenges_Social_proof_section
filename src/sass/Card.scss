@@ -1,0 +1,36 @@
+@import "variable.scss";
+.card {
+  border-radius: 10px;
+  background-color: $VeryDarkMagenta;
+  font-family: $Font;
+  color: $White;
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+    font-size: 1.2rem;
+
+    img {
+      border-radius: 50%;
+      height: 50px;
+      margin-right: 1rem;
+    }
+    h5 {
+      margin: 0;
+      font-weight: 700;
+    }
+    h6 {
+      margin: 0.5rem 0 0 0;
+      color: $Pink;
+    }
+  }
+  p {
+    font-weight: 400;
+    padding: 0 2rem 2rem 2rem;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+}

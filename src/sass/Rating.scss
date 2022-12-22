@@ -6,3 +6,18 @@
   font-family: $Font;
   font-weight: 700;
 }
+
+@media (min-width: 1200px) {
+  .rating {
+    width: 50%;
+    :nth-child(1) {
+      background-color: $Pink;
+    }
+    :nth-child(2) {
+      background-color: $LightGrayishMagenta;
+    }
+    :nth-child(3) {
+      background-color: $LightGrayishMagenta;
+    }
+  }
+}
